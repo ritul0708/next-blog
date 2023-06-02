@@ -1,9 +1,11 @@
+import FeaturedPosts from "@/components/home-page/features-posts"
 import Hero from "@/components/home-page/hero"
 
 const HomePage = () => {
   return (
     <>
       <Hero />
+      <FeaturedPosts />
     </>
   )
 
